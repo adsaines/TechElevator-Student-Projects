@@ -1,0 +1,39 @@
+
+.eachPark {
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+   
+    grid-template-areas:
+      " picture name "
+      " picture description ";
+    grid-gap: 10px, 10px;  
+    
+}
+ 
+.container {
+	opacity: 0.9;
+	margin: 20px;
+	border-radius: 1%;
+}
+
+.picture{
+    grid-area: picture;
+ 	margin: 10px;
+ 	padding-bottom: 5px;
+ 	text-align: center;
+}
+
+.name {
+    grid-area: name;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.description {
+	grid-area: description;
+    margin-top: 0px;
+    margin-top: 0px;
+}

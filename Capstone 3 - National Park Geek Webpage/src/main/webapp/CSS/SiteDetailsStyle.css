@@ -1,0 +1,40 @@
+ul {
+	list-style: none;
+}
+
+#five-day-forecast {
+	margin-top: 100px;
+}
+
+.make-me-bold {
+	font-weight: bold;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.weatherPic {
+	width: 50%;
+}
+
+.park-title {
+	margin-bottom: 5%;
+}
+
+.container {
+	border-radius: 2%;
+	opacity: 0.9;
+}
+
+#quote {
+	padding-left: 100px;
+}
+
+#quoteSource {
+	padding-left: 120px;
+}
+
+#five-day-forecast td {
+	text-align: center;
+}
