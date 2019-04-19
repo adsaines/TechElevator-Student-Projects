@@ -1,0 +1,1 @@
+SELECT * FROM league_members_and_scores
